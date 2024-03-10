@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'getting_started_scrn.dart';
+import 'about.dart';
 
 class SplashScreen extends StatefulWidget {
   @override
@@ -14,7 +14,7 @@ class _SplashScreenState extends State<SplashScreen> {
     Future.delayed(Duration(seconds: 7), () {
       Navigator.pushReplacement(
         context,
-        MaterialPageRoute(builder: (context) => GettingStarted()),
+        MaterialPageRoute(builder: (context) => About()),
       );
     });
   }
